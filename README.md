@@ -3,6 +3,7 @@ DPSleep Pipeline Step #3 (act - activity scoring and sleep estimation)
 
 ## Table of contents
 1. [Requirements](#requirements)
+2. [Installation](#installation)
 2. [Usage examples](#usage-examples)
 
 ### Requirements
@@ -17,13 +18,13 @@ DPSleep Pipeline Step #3 (act - activity scoring and sleep estimation)
 
 - The output data is saved as a MATLAB file: STUDY-SUB-geneactiv_mtl3.mat
 
-- If you have phone data, goto step #4. Otherwise, skip step 4 and directly goto step #5.
+- If you have phone data, goto step #4 (dpsleep-sync). Otherwise, skip step 4 and directly goto step #5 (dpsleep-qcact).
 
 To run the act pipeline, users may choose one of the following options:
 
-##### Option 1 - Installation
+### Installation
 
-To install Stopwatch on your system, run the following commands:
+To install dpsleep-ac on your system, run the following commands:
 ```bash
 git clone git@github.com:harvard-nrg/dpsleep-act.git 
 cd act
