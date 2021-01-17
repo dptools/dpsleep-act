@@ -8,7 +8,7 @@ DPSleep Pipeline Step #3 (act - activity scoring and sleep estimation)
 
 ### Requirements
 
-- Before this Step, make sure to run 'extract' and 'freq'. Folders mtl1 and mtl2 contain daily time data and minute-based frequency spectrum data files.
+- Before this Step, make sure to run 'dpsleep-extract' and 'dpsleep-freq'. Folders mtl1 and mtl2 contain daily time data and minute-based frequency spectrum data files.
 
 - This step performs the main analysis on the data that was explained with firgure 2 in the paper including:
     - Watch-off Remove
