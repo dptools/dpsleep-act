@@ -20,7 +20,7 @@ DPSleep Pipeline Step #3 (act - activity scoring and sleep estimation)
 
 - If you have phone data, goto step #4 (dpsleep-sync). Otherwise, skip step 4 and directly goto step #5 (dpsleep-qcact).
 
-To run the act pipeline, users may choose one of the following options:
+
 
 ### Installation
 
@@ -29,7 +29,6 @@ To install dpsleep-ac on your system, run the following commands:
 git clone git@github.com:harvard-nrg/dpsleep-act.git 
 cd act
 pip install -r requirements.txt
-```
 ```
 
 ### Usage examples
